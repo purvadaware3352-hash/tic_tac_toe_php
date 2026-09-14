@@ -39,6 +39,7 @@ $username = htmlspecialchars($_SESSION['username']);
         <div class="nav-links">
             <a href="game.php" class="active">Play</a>
             <a href="stats.php">Stats</a>
+            <a href="profile.php">Profile</a>
             <span class="nav-user"><?php echo $username; ?></span>
             <a href="logout.php" class="btn-logout">Logout</a>
         </div>
